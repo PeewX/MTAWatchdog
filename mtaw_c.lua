@@ -134,5 +134,9 @@ function guiComboBoxAdjustHeight ( combobox, itemcount )
     return guiSetSize ( combobox, width,  itemcount*20+5 , false )
 end
 
-wtd.createPanel()
-showCursor(true)
+addEventHandler("onClientResourceStart", resourceRoot,
+    function()
+        wtd.createPanel()
+        showCursor(true)
+    end
+)
