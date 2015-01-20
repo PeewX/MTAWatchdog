@@ -1,0 +1,5 @@
+<meta>
+    <info name = "MTAWatchdog" type = "script" version = "0.1" author="PewX" />
+    <script src="mtaw_s.lua" type = "server" />
+    <script src="mtaw_c.lua" type = "client" />
+</meta>
